@@ -1,4 +1,44 @@
 body{
-     background: rgb(110,104,200);
-    background: linear-gradient(90deg, rgba(110,104,200,1) 0%, rgba(98,98,255,1) 35%, rgba(99,221,245,1) 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+h1{
+    background-color: transparent;
+    text-align: center;
+    color: #000000;
+    padding: 50px;
+    font-size: 14;
+}
+#perfil{
+    text-align: center;
+}
+#perfil img{
+    background-color: transparent;
+    border-radius: 50%;
+}
+p {
+    text-align: center;
+    font-size: 14;
+}
+.social-media {
+    padding: 10px 0;
+}
+.social-media a{
+    padding: 15px;
+    margin: auto;
+    background-color: #9e9e9e;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 300px;
+    max-width: 400px;
+
 }
